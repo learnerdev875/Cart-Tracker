@@ -1,0 +1,37 @@
+.cart{
+    width:20%;
+    background-color:lightgray;
+    padding:5px;
+}
+.cart > h1{
+    text-align: center;
+}
+
+.cart_image{
+    width:90px;
+    height: 100px;
+    object-fit: contain;
+}
+.cart_item{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.cart_info>h1{
+    font-size: 14px;
+}
+.cart_info>p{
+    font-size: 14px;
+}
+.cart_button{
+    border:.5px solid black;
+    width:20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cart_button:last-child{
+    margin-left: 10px;
+}
